@@ -59,6 +59,6 @@ Another shortcoming could be a linear lane model may not work well when there is
 
 ### 3. Possible improvements to the pipeline
 
-A possible improvement would be to adaptively change `rgb_threshold` according to the light conditions. 
+A possible improvement would be to make `rgb_threshold` adaptive to the light conditions. 
 
 Another potential improvement could be to switch to a quadratic lane model if the previous slopes exceed some thresholds.
