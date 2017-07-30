@@ -49,16 +49,16 @@ rgb_threshold = [210, 150, 0]
 color_select = color_filter(image, rgb_threshold)
 ```
 
-### 2. Identify potential shortcomings with your current pipeline
+### 2. Potential shortcomings with the current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
+One potential shortcoming would be the white-yellow color filter may not work well at different light conditions.
 
-Another shortcoming could be ...
+Another shortcoming could be a linear lane model may not work well when there is a sharp turn.
 
 
-### 3. Suggest possible improvements to your pipeline
+### 3. Possible improvements to the pipeline
 
-A possible improvement would be to ...
+A possible improvement would be to adaptively change `rgb_threshold` according to the light conditions. 
 
-Another potential improvement could be to ...
+Another potential improvement could be to switch to a quadratic lane model as long as the previous slopes exceed some thresholds.
