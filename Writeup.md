@@ -61,4 +61,4 @@ Another shortcoming could be a linear lane model may not work well when there is
 
 A possible improvement would be to adaptively change `rgb_threshold` according to the light conditions. 
 
-Another potential improvement could be to switch to a quadratic lane model as long as the previous slopes exceed some thresholds.
+Another potential improvement could be to switch to a quadratic lane model if the previous slopes exceed some thresholds.
