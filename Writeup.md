@@ -52,7 +52,7 @@ color_select = color_filter(image, rgb_threshold)
 ### 2. Potential shortcomings with the current pipeline
 
 
-One potential shortcoming would be the white-yellow color filter may not work well at different light conditions.
+One potential shortcoming would be the white-yellow color filter may fail to work at different light conditions.
 
 Another shortcoming could be a linear lane model may not work well when there is a sharp turn.
 
