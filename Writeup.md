@@ -18,7 +18,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 ```python
 lines_L = [line for line in lines.squeeze() if (line[3]-line[1])/(line[2]-line[0]) < -0.5]
 ```
-2. collecting x and y as 1d arraies:
+2. collecting x and y as 1D arrays:
 ```python
 xL = []
 yL = []
