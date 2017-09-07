@@ -13,7 +13,7 @@ My pipeline consisted of 5 steps:
 1. Apply an image mask;
 1. Hough transform.
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by
+In order to draw a single line on the left and right lanes, I modified the `draw_lines()` function by
 1. separating left and right line segments by theirs lope ((y2-y1)/(x2-x1)):
 ```python
 lines_L = [line for line in lines.squeeze() if (line[3]-line[1])/(line[2]-line[0]) < -0.5]
